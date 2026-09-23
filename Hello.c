@@ -11,6 +11,7 @@ int greeting(const chat *name)
     printf("Hello, %s!\n", name);
     return 0;
 }
+// Print a farewell message forthe specified user
 int farewell(const char *name)
 {
     printf("Goodbye, %s!\n", name);
